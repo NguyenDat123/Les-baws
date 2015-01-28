@@ -1,4 +1,5 @@
 <?php
+	//
 	switch( $_GET['page'] ){
 		case 'accueil':
 			$file = 'accueil.php';
@@ -13,6 +14,7 @@
 			$title = 'Weee GITS';
 			break;
 		default:
+			// Si aucune case ne correspond > default // Rubya le maki 
 			header( 'Location: index-switch.php?page=accueil' );
 			die();
 			break;
