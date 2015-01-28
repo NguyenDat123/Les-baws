@@ -1,5 +1,5 @@
 <?php
-
+	//hello
 	require('connect.php');
 	
 	if( isset( $_GET['page'] ) && isset( $les_pages[$_GET['page']] )) {
@@ -28,3 +28,4 @@
 	echo $row 
 	// afficher le footer
 	include( 'footer.php' );
+
